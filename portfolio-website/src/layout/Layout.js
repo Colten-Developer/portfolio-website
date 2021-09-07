@@ -1,7 +1,6 @@
 
 import React from "react";
 import Menu from "./Menu";
-import Routes from "./Routes";
 import HomePage from "../pages/HomePage";
 import AboutPage from "../pages/AboutPage";
 import ContactPage from "../pages/ContactPage";
@@ -13,14 +12,15 @@ import "./Layout.css";
 
 function Layout() {
   return (
-    <div className="container-fluid">
-      <div className="row h-100">
-        <div className="col-md-2 side-bar">
-          <Menu />
-        </div>
-        <br></br>
+    <div>
+      <div>
         <div>
-            <HomePage />
+          <div>
+            <Menu />
+          </div>
+          <div>
+              <HomePage />
+          </div>
         </div>
         <div>
             <AboutPage />

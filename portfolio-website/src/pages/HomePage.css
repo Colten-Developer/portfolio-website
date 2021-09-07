@@ -1,3 +1,57 @@
-.top-padding {
-    height: 150px;
+.colors {
+  background-image: linear-gradient(to bottom right, #700000, #2F4858);
+  height: 450px;
 }
+
+.flex-container {
+  margin: 60px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: #E7E7E7;
+  border-radius: 15px;
+  }
+
+.flex-container div {
+  margin: 10px; 
+}
+
+  .flex-item-picture img {
+    border-radius: 15px;
+  }
+
+  .flex-item-paragraph {
+    flex-grow: 8;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+  }
+
+
+  @media all and (max-width: 800px) {
+
+    .flex-item-picture {
+        flex: 100%;
+        padding: 5px;
+        width: 100%;
+        max-width: 100px;
+        height: auto;
+        margin-top: 10px;
+        line-height: 150px;
+        color: black;
+      }
+    
+      .flex-item-paragraph {
+        flex: 100%;
+        background-color: gray;
+        padding: 5px;
+        max-width: 100%;
+        height: auto;
+        color: black;
+        font-weight: bold;
+        font-size: 1em;
+        text-align: left;
+      }
+
+  }

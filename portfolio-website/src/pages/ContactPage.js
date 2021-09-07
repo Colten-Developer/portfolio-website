@@ -1,5 +1,9 @@
 
 import React from "react";
+import GitHubLogo from '../images/Github.JPG'
+import GmailLogo from '../images/Gmail.JPG'
+import LinkedinLogo from '../images/Linkedin.JPG'
+import './ContactPage.css'
 
 
 //Defines the main layout of the application.
@@ -7,16 +11,25 @@ import React from "react";
 function ContactPage() {
   return (
       <div>
-          <h1>Contact me</h1>
           <div>
-              <p>Best ways to contact me are:</p>
-              <ol>
-                <li><a href="https://linkedin.com/in/colten-ginnis-91197a205" target="_blank">Linkedin</a></li>
-                <li><a href="https://github.com/Colten-Developer" target="_blank">Github</a></li>
-                <li><a href="mailto: coltyg1@gmail.com">Gmail</a></li>
-              </ol>
-
-              <p>or send me an email here:</p>
+          <h1>Contact me</h1>
+          <div className = 'parent'>
+              <div>
+              <h3>Best ways to contact me are:</h3>
+                <ul className = 'child'>
+                    <li><a href="https://linkedin.com/in/colten-ginnis-91197a205" target="_blank">
+                        <img src={LinkedinLogo} alt="Linkedin Logo" className = 'logos'></img>
+                        </a></li>
+                    <li><a href="https://github.com/Colten-Developer" target="_blank">
+                        <img src={GitHubLogo} alt="GitHub Logo" className = 'logos'></img>
+                        </a></li>
+                    <li><a href="mailto: coltyg1@gmail.com">
+                        <img src={GmailLogo} alt="Gmail Logo" className = 'logos'></img>
+                    </a></li>
+                </ul>
+              </div>
+                <div>
+              <h3>Send me an email here:</h3>
               <section>
                   <div>
                       <form action="https://formspree.io/f/mvodpzkd" method = "POST">
@@ -24,7 +37,7 @@ function ContactPage() {
                           <label for="username">Name:</label>
                           <input id="username" type="text" name="name"></input>
 
-                          <label for="userEmail">Name:</label>
+                          <label for="userEmail">Email:</label>
                           <input id="userEmail" type="text" name="email"></input>
 
                           <br></br>
@@ -37,6 +50,8 @@ function ContactPage() {
                       </form>
                   </div>
               </section>
+              </div>
+          </div>
           </div>
       </div>
   );
