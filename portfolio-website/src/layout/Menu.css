@@ -11,10 +11,72 @@
     display: block;
     color: #E7E7E7;
     text-align: center;
-    padding: 14px 12px;
-    margin-right: 10px;
+    padding: 1rem .9rem;
+    margin-right: .8rem;
     text-decoration: none;
   }
+
+  .dropbtn{
+    visibility: hidden;
+  }
+
+@media (max-width: 30em){
+  .navbar{
+    height: 3rem;
+  }
+
+  .navbar a {
+    color:black;
+    visibility: hidden;
+  }
+
+  /* Dropdown Button */
+.dropbtn {
+  visibility: initial;
+  background-color: rgb(43, 43, 43);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  margin-right: 2.5rem;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  float: right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 93px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: rgb(34, 34, 34);}
+
+}
 
   .navbar p {
     float: left;
@@ -22,8 +84,8 @@
     color: #E7E7E7;
     text-align: center;
     text-decoration: none;
-    margin-left: 12px;
-    height: 8px;
+    margin-left: .9rem;
+    height: .7rem;
   }
   
   .navbar a:hover {
@@ -31,3 +93,6 @@
     transition: .5s ease;
     color: black;
   }
+
+
+

@@ -1,3 +1,7 @@
-.top-padding {
-    padding-top: 100px;
+article {
+    font-family: "Roboto", sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: "Playfair Display", serif;
 }

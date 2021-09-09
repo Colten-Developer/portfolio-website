@@ -13,7 +13,7 @@ function ContactPage() {
       <div>
           <div>
           <h1>Contact me</h1>
-          <div className = 'parent'>
+            <div className = 'parent'>
               <div>
               <h3>Best ways to contact me are:</h3>
                 <ul className = 'child'>
@@ -35,10 +35,12 @@ function ContactPage() {
                       <form action="https://formspree.io/f/mvodpzkd" method = "POST">
 
                           <label for="username">Name:</label>
-                          <input id="username" type="text" name="name"></input>
+                          <input id="username" type="text" name="name" class = 'info'></input>
+
+                            <br></br>
 
                           <label for="userEmail">Email:</label>
-                          <input id="userEmail" type="text" name="email"></input>
+                          <input id="userEmail" type="text" name="email" class= 'info'></input>
 
                           <br></br>
 

@@ -1,3 +1,7 @@
+h1,h2,h3 {
+    font-family: "Playfair Display", serif;
+}
+
 form {
     justify-content: center;
 }
@@ -8,13 +12,15 @@ form input, form textarea{
 }
 
 form textarea {
-    width: 500px;
-    height: 100px;
+    min-width: 100px;
+    min-height: 50px;
+    width: 80%;
+    height: auto;
 }
 
 .logos {
-    width: 50px;
-    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
     border-radius: 15%;
 }
 
@@ -24,10 +30,15 @@ ul {
     margin: 0;
 }
 
-
+.info {
+    min-width: 80px;
+    min-height: 10px;
+    width: 28%;
+    height:auto;
+}
 
 .parent {
-    height: 250px;
+    height: 16rem;
     background: #CCCCCC;
     display: flex;
     flex-direction: row wrap;
@@ -39,8 +50,9 @@ ul {
     .child {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-evenly;
-        padding: 0;
-        margin: 0;
+        padding: 1rem;
+        margin: 1rem;
         list-style: none;
     }

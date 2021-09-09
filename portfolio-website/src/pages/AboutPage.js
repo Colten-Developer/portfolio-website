@@ -8,8 +8,6 @@ import'./AboutPage.css'
 function AboutPage() {
   return (
     <div>
-      <div className = 'top-padding'>
-      </div>
       <div>
           <h1>About me</h1>
           <section>

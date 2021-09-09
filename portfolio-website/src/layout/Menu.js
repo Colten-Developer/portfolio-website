@@ -9,12 +9,23 @@ import "./Menu.css"
 
 function Menu() {
     return (
-        <div class="navbar">
-            <p>Colten Ginnis</p>
-            <a href="default.asp">Home</a>
-            <a href="news.asp">News</a>
-            <a href="contact.asp">Contact</a>
-            <a href="about.asp">About</a>
+        <div>
+            <div class="navbar">
+                <p>Colten Ginnis</p>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Contact</a>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
         </div>
     )
 }
