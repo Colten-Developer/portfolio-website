@@ -1,6 +1,10 @@
 
-h1,h2,h3 {
+h1, h2, h3 {
   font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
 }
 
 .colors {
@@ -11,20 +15,8 @@ h1,h2,h3 {
 img {
   display:block;
   max-width: 100%;
+  padding-right: 1.25rem;
 }
-/*
-.flex-container {
-  margin-top: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  display: flex;
-  flex-direction: row;
-  padding: 2rem;
-  background-color: #E7E7E7;
-  border-radius: 15px;
-  flex-wrap: wrap;
-  }
-*/
 
 .flex-container {
   display: flex;
@@ -37,7 +29,7 @@ img {
   border-radius: 15px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   .flex-container{
     flex-wrap: wrap;
   }
@@ -59,4 +51,73 @@ img {
     text-align: center;
     max-width: 100%;
     flex-basis: 100%;
+  }
+
+
+  .meter {
+    box-sizing: content-box;
+    height: 1.25rem;
+    margin: .8rem .25rem .8rem 1rem;
+    background: rgb(172, 172, 172);
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .javascript {
+    display: block;
+    height: 100%;
+    width:90%;
+    color: #c5c5c5;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #700000;
+    box-shadow: inset 0 2px 9px rgb(70, 69, 69),
+      inset 0 -2px 6px rgba(0, 0, 0, 0.568);
+    overflow: hidden;
+  }
+
+  .react {
+    display: block;
+    height: 100%;
+    width:80%;
+    color: #c5c5c5;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #700000;
+    box-shadow: inset 0 2px 9px rgb(70, 69, 69),
+      inset 0 -2px 6px rgba(0, 0, 0, 0.568);
+    overflow: hidden;
+  }
+  .node {
+    display: block;
+    height: 100%;
+    width: 75%;
+    color: #c5c5c5;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #700000;
+    box-shadow: inset 0 2px 9px rgb(70, 69, 69),
+      inset 0 -2px 6px rgba(0, 0, 0, 0.568);
+
+    overflow: hidden;
+  }
+  .postgresSQL {
+    display: block;
+    height: 100%;
+    width: 70%;
+    color: #c5c5c5;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #700000;
+    box-shadow: inset 0 2px 9px rgb(70, 69, 69),
+      inset 0 -2px 6px rgba(0, 0, 0, 0.568);
+    overflow: hidden;
   }

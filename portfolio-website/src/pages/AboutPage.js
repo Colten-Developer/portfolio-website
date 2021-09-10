@@ -27,13 +27,10 @@ function AboutPage() {
                   use my education at Thinkful to become a software engineer, and hopefully start my own
                   software engineering firm. 
                   </p>
-                  <p>Available services include:</p>
-                  <ul>
-                  <li>Full stack development</li>
-                  <li>Backend development</li>
-                  <li>Server support</li>
-                  <li>Front end development</li>
-              </ul>
+                  <p>Learned Technologies:</p>
+                  <p>React.js, Javascript, HTML, CSS, Python, Tkinter, Node.js, SQL, PostgresSQL, Express, NPM, Mocha and Chai</p>
+                  <p>Upcoming Technologies</p>
+                  <p>Wordpress, React Native</p>
               </article>
           </section>
       </div>

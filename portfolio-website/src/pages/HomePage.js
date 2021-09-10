@@ -31,6 +31,19 @@ function HomePage() {
                             I love to constantly learn and be pushed to potential. I wish to continue this
                             trend well into my career.
                         </p>
+                        <h3>Top Technologies:</h3>
+                        <div class = 'meter'>
+                            <span class = 'javascript'>Javascript: 90%</span>
+                        </div>
+                        <div class = 'meter'>
+                            <span class = 'react '>React: 85%</span>
+                        </div>
+                        <div class = 'meter'>
+                            <span class = 'postgresSQL'>PostgresSQL: 70%</span>
+                        </div>
+                        <div class = 'meter'>
+                            <span class = 'node'>Node.JS: 75%</span>
+                        </div>
                     </div>
                 </div>
             </div>
