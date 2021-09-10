@@ -1,5 +1,10 @@
+.color-contact {
+    background: #CCCCCC;
+}
+
 h1,h2,h3 {
     font-family: "Playfair Display", serif;
+    padding-left: .2rem;
 }
 
 form {
@@ -39,7 +44,6 @@ ul {
 
 .parent {
     height: 16rem;
-    background: #CCCCCC;
     display: flex;
     flex-direction: row wrap;
     justify-content: space-evenly;

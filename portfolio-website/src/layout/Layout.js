@@ -4,6 +4,7 @@ import Menu from "./Menu";
 import HomePage from "../pages/HomePage";
 import AboutPage from "../pages/AboutPage";
 import ContactPage from "../pages/ContactPage";
+import Projects from "../pages/Projects"
 
 import "./Layout.css";
 
@@ -12,7 +13,7 @@ import "./Layout.css";
 
 function Layout() {
   return (
-    <div>
+    <div class = 'primary-bg'>
       <div>
         <div>
           <div>
@@ -24,6 +25,9 @@ function Layout() {
         </div>
         <div>
             <AboutPage />
+        </div>
+        <div>
+            <Projects />
         </div>
         <div>
             <ContactPage />
