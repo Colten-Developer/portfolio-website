@@ -8,7 +8,7 @@ import "./HomePage.css"
 
 function HomePage() {
   return (
-        <div className = "colors">
+        <div className = "colors" id = 'Home'>
             <div>
                 <br></br>
                 <div className="flex-container">
@@ -33,16 +33,16 @@ function HomePage() {
                         </p>
                         <h3>Top Technologies:</h3>
                         <div class = 'meter'>
-                            <span class = 'javascript'>Javascript: 90%</span>
+                            <span class = 'javascript'>Javascript</span>
                         </div>
                         <div class = 'meter'>
-                            <span class = 'react '>React: 85%</span>
+                            <span class = 'react '>React</span>
                         </div>
                         <div class = 'meter'>
-                            <span class = 'postgresSQL'>PostgresSQL: 70%</span>
+                            <span class = 'postgresSQL'>PostgresSQL</span>
                         </div>
                         <div class = 'meter'>
-                            <span class = 'node'>Node.JS: 75%</span>
+                            <span class = 'node'>Node.JS</span>
                         </div>
                     </div>
                 </div>

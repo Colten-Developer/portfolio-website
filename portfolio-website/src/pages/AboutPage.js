@@ -7,7 +7,7 @@ import'./AboutPage.css'
 
 function AboutPage() {
   return (
-    <div>
+    <div id = 'About'>
       <div>
           <h1>About me</h1>
           <section>

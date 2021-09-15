@@ -10,7 +10,7 @@ import './ContactPage.css'
 
 function ContactPage() {
   return (
-      <div class = 'color-contact'>
+      <div class = 'color-contact' id ='Contact'>
           <div>
           <h1>Contact me</h1>
             <div className = 'parent'>

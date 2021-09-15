@@ -12,14 +12,13 @@ form {
 }
 
 form input, form textarea{
-    width: 10%;
     margin-bottom: 10px;
 }
 
 form textarea {
     min-width: 100px;
     min-height: 50px;
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 

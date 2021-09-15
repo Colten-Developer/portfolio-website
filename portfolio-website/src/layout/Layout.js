@@ -14,25 +14,11 @@ import "./Layout.css";
 function Layout() {
   return (
     <div class = 'primary-bg'>
-      <div>
-        <div>
-          <div>
-            <Menu />
-          </div>
-          <div>
-              <HomePage />
-          </div>
-        </div>
-        <div>
-            <AboutPage />
-        </div>
-        <div>
-            <Projects />
-        </div>
-        <div>
-            <ContactPage />
-        </div>
-      </div>
+      <Menu />
+      <HomePage />
+      <AboutPage />
+      <Projects />
+      <ContactPage />
     </div>
   );
 }
